@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+# @Time    : 2023/3/15 23:31
+# @Author  : AI悦创
+# @FileName: football.py
+# @Software: PyCharm
+# @Blog    ：https://bornforthis.cn/
 import pygame, sys, os
 
 BGCOLOR = pygame.Color('black')  # 创建颜色
@@ -13,7 +19,7 @@ class Player(object):
         self.size = self.width, self.height = 600, 400
         self.screen = pygame.display.set_mode(self.size)
         # 设置窗口标题
-        pygame.display.set_caption("我的世界")
+        pygame.display.set_caption("足球弹动——AI悦创·编程1v1|微信:Jiabcdefh")
         self.prepare()
 
     def load_image(self, file):

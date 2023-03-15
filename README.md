@@ -25,8 +25,24 @@ pip install pygame-demo
 
 ### 3.1 Football
 
+#### 1. 游戏体验
+
 ```python
-from pygame_demo import football
-football.run()
+from pygame_demo import football, concise
+
+football.run()  # 完整代码运行
+# concise.run()  # 简洁代码运行
 ```
 
+#### 2. 游戏代码显示
+
+```python
+from pygame_demo import show_code
+
+print(show_code("concise"))  # 课上代码输出
+# print(show_code("full"))  # 完整代码输出
+```
+
+## 4. License
+
+使用请留下版权信息，切勿删除！！！

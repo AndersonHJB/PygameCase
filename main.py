@@ -4,5 +4,9 @@
 # @FileName: main.py
 # @Software: PyCharm
 # @Blog    ：https://bornforthis.cn/
-from pygame_demo import football
-football.run()
+from pygame_demo import football, show_code, concise
+
+football.run()  # 完整代码运行
+concise.run()  # 简洁代码运行
+print(show_code("concise"))  # 课上代码输出
+print(show_code("full"))  # 完整代码输出
