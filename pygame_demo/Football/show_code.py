@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2023/3/15 18:06
+# @Time    : 2023/3/15 23:31
 # @Author  : AI悦创
-# @FileName: __init___.py
+# @FileName: show_code.py
 # @Software: PyCharm
 # @Blog    ：https://bornforthis.cn/
-# from .football import Player, run

@@ -4,7 +4,5 @@
 # @FileName: main.py
 # @Software: PyCharm
 # @Blog    ：https://bornforthis.cn/
-from pygame_demo.Football import football
-
+from pygame_demo import football
 football.run()
-

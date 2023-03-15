@@ -19,8 +19,8 @@ def quit():
 
 
 # 使用变量保存载入的图片，图像函数一般在 image 中
-football = pygame.image.load('football.png')
-background = pygame.image.load('background.jpg')
+football = pygame.image.load('img/football.png')
+background = pygame.image.load('img/background.jpg')
 # 载入的图片会被认为是一层一层的面，称为 surface
 football = pygame.transform.smoothscale(football, (60, 60))  # 通过 transform 改变 surface 的大小，存回 football 的变量中
 background = pygame.transform.smoothscale(background, (600, 400))
