@@ -1,1 +1,1 @@
-from .core import *
+# from pygame_demo.Football import football

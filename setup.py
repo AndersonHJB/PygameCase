@@ -14,15 +14,15 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'pygame_demo'
 DESCRIPTION = 'My short description for my project.'
-URL = 'https://github.com/me/myproject'
-EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+URL = 'https://github.com/AndersonHJB/pygame_demo'
+EMAIL = 'bornforthis@bornforthis.cn'
+AUTHOR = 'Bornforthis'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    # 'requests', 'maya', 'records',
+    'pygame',
 ]
 
 # What packages are optional?
@@ -81,7 +81,7 @@ class UploadCommand(Command):
 
         self.status('Building Source and Wheel (universal) distribution…')
         os.system('{0} setup.py sdist bdist_wheel --universal'.format(sys.executable))
-
+        os.system('python3 -m build')
         self.status('Uploading the package to PyPI via Twine…')
         os.system('twine upload dist/*')
 
